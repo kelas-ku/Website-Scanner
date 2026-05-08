@@ -57,6 +57,17 @@ Dalam script ini, ada beberapa materi Python yang digunakan:
 
 ---
 
+# Perintah di Linux/MacOS:
+```
+# Clone repository dari GitHub
+git clone https://github.com/kelas-ku/Website-Scanner.git
+
+# Masuk ke folder project
+cd Website-Scanner
+
+# Jalankan script dengan Python 3
+python3 scanner.py
+```
 ## ✨ Catatan
 Alat ini masih sederhana, namun bisa dikembangkan lebih lanjut dengan fitur tambahan seperti:
 - **Whois Lookup**  
