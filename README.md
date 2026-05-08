@@ -59,6 +59,14 @@ Dalam script ini, ada beberapa materi Python yang digunakan:
 
 # Perintah di Linux/MacOS:
 ```
+# Buat folder venv
+python3 -m venv venv
+source venv/bin/activate
+
+# Instalasi bahan-bahan yang dibutuhkan
+sudo apt install git -y
+pip install socket
+
 # Clone repository dari GitHub
 git clone https://github.com/kelas-ku/Website-Scanner.git
 
@@ -66,8 +74,30 @@ git clone https://github.com/kelas-ku/Website-Scanner.git
 cd Website-Scanner
 
 # Jalankan script dengan Python 3
-python3 scanner.py
+python3 scann-website.py
 ```
+# Perintah di Windows (Command Prompt / PowerShell):
+```
+# Clone repository dari GitHub
+git clone https://github.com/kelas-ku/Website-Scanner.git
+
+# Masuk ke folder project
+cd Website-Scanner
+
+# Jalankan script dengan Python
+python scann-website.py
+```
+# Perintah Di Termux (Android Terminal):
+```
+pkg update && pkg upgrade -y
+pkg install python -y
+pkg install python2 -y
+pkg install git -y
+pip install socket
+git clone https://github.com/kelas-ku/Website-Scanner.git
+cd Website-Scanner
+python2 scann-website.py
+````
 ## ✨ Catatan
 Alat ini masih sederhana, namun bisa dikembangkan lebih lanjut dengan fitur tambahan seperti:
 - **Whois Lookup**  
